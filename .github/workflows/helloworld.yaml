@@ -1,4 +1,4 @@
-Name: Hellow world
+name: hello world
 
 on:
   push:
@@ -13,13 +13,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses:_actions/checkout@v2
+      - uses: actions/checkout@v2
       - name: hello world
-        run: echo "hello World"
+         run echo "Hello World"
         shell: bash
   goodbye:
     runs-on: ubuntu-latest
     steps:
       - name: goodbye world
-        run: _echo "Goodbye- world"
+         run _echo "Goodbye- world"
         shell: bash
