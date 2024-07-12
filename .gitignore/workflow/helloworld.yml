@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  hello:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses:_actions/checkout@v2
@@ -22,4 +22,4 @@ jobs:
     steps:
       - name: goodbye world
         run: _echo "Goodbye- world"
-        shell: bash
+        shell: bash
