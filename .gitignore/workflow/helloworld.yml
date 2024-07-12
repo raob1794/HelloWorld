@@ -1,4 +1,4 @@
-Name: hello world1
+name: hello world1
 
 on:
   push:
